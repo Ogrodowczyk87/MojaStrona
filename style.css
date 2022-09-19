@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*--- Strona glowna ---*/
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 44px;
+}
+
+nav ul li {
+    margin-top: 10%;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: white;
+    font-size: 90px;
+    margin-bottom: 80px;
+}
+
+p {
+    color: white;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(./images/progress.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0, 5s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+/*--- Galeria ---*/
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.slider {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 800px;
+    height: 500px;
+}
+
+
+/*manual slider navigation*/
+
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
