@@ -1,0 +1,32 @@
+.nav-wrap {
+    position: relative;
+}
+
+.nav {
+    background-color: rgb(115, 112, 115);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    width: 1200px;
+    margin: 0;
+    background-color: #ccc;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.nav ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav li {
+    font-family: 'Trispace', sans-serif;
+    display: inline;
+    margin-right: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
