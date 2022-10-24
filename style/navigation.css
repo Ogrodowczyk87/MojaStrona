@@ -1,9 +1,4 @@
-.nav-wrap {
-    position: relative;
-}
-
 .nav {
-    position: fixed;
     width: 1200px;
     top: 1px;
     margin: 0;
