@@ -3,13 +3,11 @@
 }
 
 .nav {
-    background-color: rgb(115, 112, 115);
-    display: flex;
-    justify-content: center;
-    text-align: center;
     position: fixed;
     width: 1200px;
+    top: 1px;
     margin: 0;
+    padding: 16px;
     background-color: #ccc;
     text-align: center;
     text-transform: uppercase;
