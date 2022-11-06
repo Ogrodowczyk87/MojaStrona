@@ -1,0 +1,11 @@
+.section-2 {
+    background-color: rgb(58, 106, 84);
+    min-height: 100vh;
+}
+
+.section-2-wrap h2 {
+    padding-top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

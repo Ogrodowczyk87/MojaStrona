@@ -1,0 +1,37 @@
+.section-1 {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 500px;
+    margin-right: 250px;
+}
+
+.main h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 54px;
+    margin-bottom: 30px;
+}
+
+.main p {
+    font-family: 'Trispace', sans-serif;
+    letter-spacing: 2.0;
+    font-size: 20px;
+}
+
+.img-wrap {
+    width: 900px;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(127, 127, 127, 0.685), rgba(125, 124, 124, 0.837)), url(../images/main.jpg);
+    border-radius: 25px;
+    overflow: hidden;
+}
